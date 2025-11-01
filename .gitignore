@@ -1,7 +1,14 @@
-# Python
+# Python & Virtual Environments
 venv/
+.venv/
+env/
+ENV/
 __pycache__/
 *.pyc
+*.egg-info/
+*.egg
+dist/
+build/
 
 # Data & Models
 data/
@@ -9,3 +16,11 @@ data/
 
 # macOS
 .DS_Store
+.DS_Store?
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
